@@ -1,4 +1,4 @@
-package basics;
+package Kodnest;
 import java.util.Scanner;
 public class Positive {
     public static void main(String[] args) {

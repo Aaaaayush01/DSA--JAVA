@@ -1,4 +1,4 @@
-package basics;
+package Kodnest;
 
 import java.util.Scanner;
 
