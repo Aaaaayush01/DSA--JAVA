@@ -1,4 +1,4 @@
-/* package Kodnest;
+* package Kodnest;
 
 import java.util.Scanner;
 
