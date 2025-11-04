@@ -1,7 +1,7 @@
 package Kodnest;
 
 public class do_while_fact {
-    public  static void main(String[] args) {
+    public static void main(String[] args) {
         int fact1 = 3;
         int fact2 = 5;
         int fact3 = 1;
@@ -17,7 +17,7 @@ public class do_while_fact {
         do {
             fact5 = fact5 * j;
             j++;
-        } while (j <= fact2 );
+        } while (j <= fact2);
         System.out.println(fact5);
     }
 }
