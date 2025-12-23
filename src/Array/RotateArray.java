@@ -1,4 +1,3 @@
-package DSA;
 import java.util.Scanner;
 public class RotateArray{
         public static void main(String[] args) {
