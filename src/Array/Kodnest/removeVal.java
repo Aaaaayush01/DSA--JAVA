@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class removeVal {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        /* Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array: ");
         int n = sc.nextInt();
         sc.nextLine();
@@ -34,6 +34,63 @@ public class removeVal {
             }
         }
         System.out.println(Arrays.toString(arr4));
-        System.out.println(arr4.length);
+        System.out.println(arr4.length); */
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter size of first array: ");
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        System.out.println("enter elements: ");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        System.out.println("enter size of second array: ");
+        int m = sc.nextInt();
+        int[] arr2 = new int[m];
+        System.out.println("enter elements: ");
+        for (int i = 0; i < m; i++) {
+            arr2[i] = sc.nextInt();
+        }
+        int[] arr3 = new int[n+m];
+        for (int i = 0; i < n; i++) {
+            arr3[i] = arr[i];
+        }
+        for (int i = 0; i < m; i++) {
+            arr3[n+i] = arr2[i];
+        }
+        int min = arr3[0];
+        for (int i = 0; i < n+m; i++) {
+            if (arr3[i] < min) {
+                min = arr3[i];
+            }
+        }
+        System.out.println("Minimum element is " + min);
+        int max = arr3[0];
+        for (int i = 0; i < n+m; i++) {
+            if (arr3[i] > max) {
+                max = arr3[i];
+            }
+        }
+        System.out.println("Maximum element is " + max);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
