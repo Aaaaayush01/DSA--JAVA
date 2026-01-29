@@ -5,7 +5,7 @@ import java.util.Scanner;
 /* public class FibonacciTerm {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number of terms for fibonacci series: ");
+        System.out.print("Enter the number of terms for climbStairs series: ");
         int n = sc.nextInt();
         int a = 0;
         int b = 1;
@@ -22,7 +22,7 @@ import java.util.Scanner;
 public class FibonacciTerm {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the fibonacci term: ");
+        System.out.println("Enter the climbStairs term: ");
         int n = sc.nextInt();
         int a = 0;
         int b = 1;
@@ -32,6 +32,6 @@ public class FibonacciTerm {
             a = b;
             b = term;
         }
-        System.out.println("Your fibonacci term is " + term);
+        System.out.println("Your climbStairs term is " + term);
     }
 }
