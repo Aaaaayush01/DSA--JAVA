@@ -1,0 +1,11 @@
+# Java build output
+out/
+target/
+bin/
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+*.log
