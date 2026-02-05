@@ -17,8 +17,9 @@ public class highestAltitude {
         int peak = 0;
         for (int i = 0; i < arr.length; i++) {
             total += arr[i];
-            if (peak < total) {
+            if (peak < total) { // deployed this that
                 peak = total;
+                System.out.println("peak total");
             }
         }
         return peak;
